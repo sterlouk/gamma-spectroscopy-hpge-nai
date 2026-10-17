@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<N42InstrumentData xmlns="http://physics.nist.gov/Divisions/Div846/Gp4/ANSIN4242/2005/ANSIN4242" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PGT="http://www.pgt.com/ANSIN4242/20060901" >
+  <Measurement>
+    <InstrumentInformation>
+      <InstrumentType>RadionuclideIdentifier</InstrumentType>
+      <Manufacturer>Thermo Fisher Scientific</Manufacturer>
+      <InstrumentModel>RIIDEye</InstrumentModel>
+      <InstrumentVersion>FW=3.10.3.5 UC=00.01.02 HDL=0b.0e SYS=5085010-Rev-1 MAIN=110454-Rev-8 PWR=111077-Rev-3</InstrumentVersion>
+      <InstrumentID>Serial 11151   </InstrumentID>
+      <ProbeType>Serial 10153, Type NaI3x3</ProbeType>
+      <InstrumentMode>Measure</InstrumentMode>
+      <PGT:InstrumentConfig>
+DET_SERNO = 10153
+CTRT_LIN_SLOPE = 1.0251e-06
+CTRT_LIN_MINRATE = 3800
+DISPBRITE = 25
+DISPCONTR = 50
+DISPTMOUT = 300
+ALARM_BACKLIGHT = 1
+RESET_BIAS = 550
+RESET_GAIN = 7000e-4
+BIASSET = 580
+AMPCGAIN = 1
+AMPFGAIN = 11152e-4
+DMEASTC = 1280e-9
+DMEASAPER = 320e-9
+ADCZLD = 4e-1
+ADCLLD = 8e-1
+ADCULD = 100
+ADCLLD[1] = 220e-1
+ADCULD[1] = 263e-1
+ADCFTDISC[1] = 380e-9
+ADCSTDISC[1] = 420e-9
+ADCZERO = 1559e-4
+ADCXFORM = 1
+ADCGRPNUM = 0
+ADCGRPSIZE = 256
+ADCCONVG = 256
+ADCPRESTAT = 0
+ADCRTPRE = 0
+ADCLTPRE = 0
+ADCCTPRE = 0
+FULLSCALE = 3072
+ACC_SCRN_DIAL = 1
+ACC_SCRN_FINDER = 1
+ACC_SCRN_BARGRAPH = 0
+ACC_SCRN_SPECTRUM = 0
+ACC_SCRN_CTRTALERT = 1
+ACC_REPT_HEADER = 1
+ACC_REPT_SIMPLE = 1
+ACC_REPT_LINES_FOUND = 1
+ACC_REPT_LINE_MATCHING = 0
+ACC_REPT_HWPARAMS = 0
+ACC_FIELD_SELTRIGLIST = 1
+ACC_CFG_DOSEALARM = 0
+ACC_CFG_GAMMAALARM = 0
+ACC_CFG_NEUTALARM = 0
+ACC_CFG_DOSEUNSAFE = 0
+ACC_CFG_CAPTIME = 1
+ACC_CFG_EDISO = 0
+ACC_CFG_SELDET = 1
+ACC_CFG_DOSESCALE = 1
+ACC_MENU_ADMIN = 0
+ACC_MENU_FACTORY = 0
+ACC_SCRN_DIAL[1] = 1
+ACC_SCRN_FINDER[1] = 1
+ACC_SCRN_BARGRAPH[1] = 1
+ACC_SCRN_SPECTRUM[1] = 1
+ACC_SCRN_CTRTALERT[1] = 1
+ACC_REPT_HEADER[1] = 1
+ACC_REPT_SIMPLE[1] = 1
+ACC_REPT_LINES_FOUND[1] = 1
+ACC_REPT_LINE_MATCHING[1] = 1
+ACC_REPT_HWPARAMS[1] = 0
+ACC_FIELD_SELTRIGLIST[1] = 1
+ACC_CFG_DOSEALARM[1] = 1
+ACC_CFG_GAMMAALARM[1] = 1
+ACC_CFG_NEUTALARM[1] = 1
+ACC_CFG_DOSEUNSAFE[1] = 1
+ACC_CFG_CAPTIME[1] = 1
+ACC_CFG_EDISO[1] = 1
+ACC_CFG_SELDET[1] = 1
+ACC_CFG_DOSESCALE[1] = 1
+ACC_MENU_ADMIN[1] = 1
+ACC_MENU_FACTORY[1] = 0
+DISP_TRIGLIST = 1
+MUTE_SPEAKER = 0
+AUDIO_VOLUME = 100
+AUDIO_COUNTRATE = 0
+SER_BAUD = 115200
+SER_PROTO = SATELLITE
+GAMMA_ALARM = 1000
+DOSE_ALARM = 50000
+DOSE_UNSAFE = 100000
+DOSE_SCALE = 1
+DOSE_MINDISP = 1.25
+DOSE_EFFCAL = 0.396633
+DOSE_MIN_NP237 = 65535
+DOSE_MIN_PU239 = 65535
+DOSE_MIN_U233 = 65535
+DOSE_MIN_U235 = 998
+SAMPLE_TIME = 5
+FAST_SIGMA = 2.5
+MAX_UNCER = 1
+BACKGND_PRESET = 60
+CURTRIGSET = Secur
+TRIGSET_IDX = 2
+BATTYPE = 0
+BATMEASCAL = 350e-3
+STAB_ENERGY = 1461.0
+STAB_DOSECORR = 12
+STAB_MAXPKCPM = 2300
+ENCAL = -0.47672
+ENCAL[1] = 0.96113
+ENCAL[2] = 6.30453e-05
+ENCAL[3] = -1.70419e-08
+ENDATE = 1542203793
+LOWEND_LIN_SLOPE = 0.00
+DET_NAME = NaI3x3
+DET_NEUTRON = 0
+DET_LAYER = 0.0762 * Al
+DET_LAYER[1] = 0
+DET_LAYER[2] = 0
+DET_LAYER[3] = 7.62 * NaI
+DET_DIAMETER = 7.62 * NaI
+DET_AREA = 45.602
+ROIWIDTH = 11
+EFFCAL = det3x3m
+LOCALE = en
+REMLOG_MODE = 2
+TIMEZONE = CEST
+STAB_TEMP_LAST = 252e-1
+STAB_FG_LAST = 11035e-4
+INTEGRATOR_BASELINE = 1
+BACKGROUND_IDX = 1057
+STAB_TEMP_REF = 277e-1
+STAB_FG_REF = 0.7656
+DOSE_CAL_ACT = 12.7
+DOSE_CAL_DATE = 20121207
+CAPTURE_PRESET = 60
+SAT_PHONENUM = B
+REMLOG_INTERVAL = 5
+NEUTRON_ALARM = 2
+BKG_ROLL = 1
+BKG_NULL = 1
+ACC_SCRN_SIMPLIFIED = 0
+ACC_DATA_ERASE = 1
+ACC_SCRN_SIMPLIFIED[1] = 0
+ACC_DATA_ERASE[1] = 1
+      </PGT:InstrumentConfig>
+    </InstrumentInformation>
+    <Spectrum Type="PHA" CalibrationIDs="en qcc res">
+      <StartTime>2024-10-22T16:38:50Z</StartTime>
+      <RealTime>PT330.462S</RealTime>
+      <LiveTime>PT330.000S</LiveTime>
+      <SourceType>Item</SourceType>
+      <ChannelData>
+             0     0     0     0     0     0     0     0
+             0   320   489   703   991  1388  2272  2845
+          3321  2908  2282  1441  1223  1032   916  1039
+          1060  1149  1360  1425  1689  1723  1803  1996
+          2019  2101  2197  2243  2269  2391  2446  2346
+          2672  2529  2689  2540  2681  2898  2566  2813
+          2633  2757  2648  2788  2817  3109  3221  3483
+          3790  3502  3638  3341  3355  3154  2944  3020
+          2829  2818  2741  2479  2508  2414  2477  2354
+          2319  2283  2300  2208  2268  2293  2183  2328
+          2169  2217  2271  2252  2318  2185  2104  2317
+          2151  2260  2146  2013  1947  1716  1583  1320
+          1249  1057   937   866   758   774   712   721
+           742   808  1007  1471  2228  3750  5653  8229
+         10922 12943 13506 12572 10239  6682  4316  2250
+          1215   646   385   275   186   162   147   131
+           145   145   122   125   147   162   169   155
+           143   117   135   138   130   138   122   107
+           119   104   111   125   119   117   105   129
+           101   122   115   103   106    97    92    77
+            79    72    65    61    71    64    81   101
+           115   172   193   217   264   240   228   197
+           156   119    70    70    48    43    37    43
+            23    28    20    23    21    22    31    20
+            34    29    30    19    16    18    15    10
+            18    17    14    11    21    13    16    15
+            11    16    13    18    19     6    15    14
+            12    18     9    17    13    16    13    12
+             5     9    10    10    11     9    12    14
+            17    20    16    12    24    14     6     3
+             4     5     5     4     6     3     3     4
+             1     2     2     1     0     0     0     0
+      </ChannelData>
+      <PGT:SpecType>8</PGT:SpecType>
+      <PGT:Bias>580</PGT:Bias>
+      <PGT:ADCTransform>1</PGT:ADCTransform>
+      <PGT:CoarseGain>1</PGT:CoarseGain>
+      <PGT:FineGain>1.1152</PGT:FineGain>
+      <PGT:GroupSize>256</PGT:GroupSize>
+      <PGT:LLD>0.80</PGT:LLD>
+      <PGT:ULD>100.00</PGT:ULD>
+      <PGT:Zero>+0.1559</PGT:Zero>
+      <PGT:CalTemp>18.55</PGT:CalTemp>
+    </Spectrum>
+    <CountDoseData Detector="gamma">
+      <SampleRealTime>PT330.462S</SampleRealTime>
+      <SampleLiveTime>PT330.000S</SampleLiveTime>
+      <CountRate Units="CPS">945.367</CountRate>
+      <Counts>311971</Counts>
+      <DoseRate Units="uSv">0.286785</DoseRate>
+    </CountDoseData>
+    <AnalysisResults>
+      <ThreatDescription>
+Probable medical isotope.
+      </ThreatDescription>
+      <NuclideAnalysis ActivityUnits="uCi">
+        <Nuclide>
+          <NuclideName>Co-57</NuclideName>
+          <NuclideType>Medical</NuclideType>
+          <NuclideIDConfidenceIndication>0.890231</NuclideIDConfidenceIndication>
+          <NuclideIDConfidenceDescription>High</NuclideIDConfidenceDescription>
+          <PGT:DoseRate Units="uSv">0.138964</PGT:DoseRate>
+          <PGT:PkBgRatio>0</PGT:PkBgRatio>
+        </Nuclide>
+      </NuclideAnalysis>
+    </AnalysisResults>
+  </Measurement>
+  <Calibration Type="Energy" ID="en" EnergyUnits="keV">
+    <Remark>FSE=3072 GrpSz=256</Remark>
+    <CalibrationCreationDate>2018-11-14T13:56:33Z</CalibrationCreationDate>
+    <ArrayXY X="Channels" Y="keV">
+      <PointXY><X>0 0</X><Y>2.94811 0</Y></PointXY>
+      <PointXY><X>1 0</X><Y>7.09608 0</Y></PointXY>
+      <PointXY><X>2 0</X><Y>8.26876 0</Y></PointXY>
+      <PointXY><X>3 0</X><Y>9.44162 0</Y></PointXY>
+      <PointXY><X>4 0</X><Y>10.7952 0</Y></PointXY>
+      <PointXY><X>5 0</X><Y>12.2392 0</Y></PointXY>
+      <PointXY><X>6 0</X><Y>13.6835 0</Y></PointXY>
+      <PointXY><X>7 0</X><Y>15.2184 0</Y></PointXY>
+      <PointXY><X>8 0</X><Y>16.9343 0</Y></PointXY>
+      <PointXY><X>9 0</X><Y>18.7408 0</Y></PointXY>
+      <PointXY><X>10 0</X><Y>20.5479 0</Y></PointXY>
+      <PointXY><X>11 0</X><Y>22.4457 0</Y></PointXY>
+      <PointXY><X>12 0</X><Y>24.4344 0</Y></PointXY>
+      <PointXY><X>13 0</X><Y>26.5141 0</Y></PointXY>
+      <PointXY><X>14 0</X><Y>28.6848 0</Y></PointXY>
+      <PointXY><X>15 0</X><Y>30.8562 0</Y></PointXY>
+      <PointXY><X>16 0</X><Y>33.2092 0</Y></PointXY>
+      <PointXY><X>17 0</X><Y>35.6534 0</Y></PointXY>
+      <PointXY><X>18 0</X><Y>38.0984 0</Y></PointXY>
+      <PointXY><X>19 0</X><Y>40.6349 0</Y></PointXY>
+      <PointXY><X>20 0</X><Y>43.2628 0</Y></PointXY>
+      <PointXY><X>21 0</X><Y>46.0729 0</Y></PointXY>
+      <PointXY><X>22 0</X><Y>48.9747 0</Y></PointXY>
+      <PointXY><X>23 0</X><Y>51.8777 0</Y></PointXY>
+      <PointXY><X>24 0</X><Y>54.8724 0</Y></PointXY>
+      <PointXY><X>25 0</X><Y>57.9592 0</Y></PointXY>
+      <PointXY><X>26 0</X><Y>61.0471 0</Y></PointXY>
+      <PointXY><X>27 0</X><Y>64.2272 0</Y></PointXY>
+      <PointXY><X>28 0</X><Y>67.5903 0</Y></PointXY>
+      <PointXY><X>29 0</X><Y>71.0459 0</Y></PointXY>
+      <PointXY><X>30 0</X><Y>74.5939 0</Y></PointXY>
+      <PointXY><X>31 0</X><Y>78.1435 0</Y></PointXY>
+      <PointXY><X>32 0</X><Y>81.7858 0</Y></PointXY>
+      <PointXY><X>33 0</X><Y>85.612 0</Y></PointXY>
+      <PointXY><X>34 0</X><Y>89.4399 0</Y></PointXY>
+      <PointXY><X>35 0</X><Y>93.3609 0</Y></PointXY>
+      <PointXY><X>36 0</X><Y>97.3751 0</Y></PointXY>
+      <PointXY><X>37 0</X><Y>101.482 0</Y></PointXY>
+      <PointXY><X>38 0</X><Y>105.683 0</Y></PointXY>
+      <PointXY><X>39 0</X><Y>109.886 0</Y></PointXY>
+      <PointXY><X>40 0</X><Y>114.183 0</Y></PointXY>
+      <PointXY><X>41 0</X><Y>118.664 0</Y></PointXY>
+      <PointXY><X>42 0</X><Y>123.24 0</Y></PointXY>
+      <PointXY><X>43 0</X><Y>127.818 0</Y></PointXY>
+      <PointXY><X>44 0</X><Y>132.49 0</Y></PointXY>
+      <PointXY><X>45 0</X><Y>137.348 0</Y></PointXY>
+      <PointXY><X>46 0</X><Y>142.209 0</Y></PointXY>
+      <PointXY><X>47 0</X><Y>147.165 0</Y></PointXY>
+      <PointXY><X>48 0</X><Y>152.215 0</Y></PointXY>
+      <PointXY><X>49 0</X><Y>157.36 0</Y></PointXY>
+      <PointXY><X>50 0</X><Y>162.6 0</Y></PointXY>
+      <PointXY><X>51 0</X><Y>167.843 0</Y></PointXY>
+      <PointXY><X>52 0</X><Y>173.273 0</Y></PointXY>
+      <PointXY><X>53 0</X><Y>178.799 0</Y></PointXY>
+      <PointXY><X>54 0</X><Y>184.328 0</Y></PointXY>
+      <PointXY><X>55 0</X><Y>189.952 0</Y></PointXY>
+      <PointXY><X>56 0</X><Y>195.765 0</Y></PointXY>
+      <PointXY><X>57 0</X><Y>201.582 0</Y></PointXY>
+      <PointXY><X>58 0</X><Y>207.494 0</Y></PointXY>
+      <PointXY><X>59 0</X><Y>213.503 0</Y></PointXY>
+      <PointXY><X>60 0</X><Y>219.608 0</Y></PointXY>
+      <PointXY><X>61 0</X><Y>225.809 0</Y></PointXY>
+      <PointXY><X>62 0</X><Y>232.015 0</Y></PointXY>
+      <PointXY><X>63 0</X><Y>238.41 0</Y></PointXY>
+      <PointXY><X>64 0</X><Y>244.902 0</Y></PointXY>
+      <PointXY><X>65 0</X><Y>251.492 0</Y></PointXY>
+      <PointXY><X>66 0</X><Y>258.178 0</Y></PointXY>
+      <PointXY><X>67 0</X><Y>264.869 0</Y></PointXY>
+      <PointXY><X>68 0</X><Y>271.658 0</Y></PointXY>
+      <PointXY><X>69 0</X><Y>278.544 0</Y></PointXY>
+      <PointXY><X>70 0</X><Y>285.528 0</Y></PointXY>
+      <PointXY><X>71 0</X><Y>292.61 0</Y></PointXY>
+      <PointXY><X>72 0</X><Y>299.79 0</Y></PointXY>
+      <PointXY><X>73 0</X><Y>307.069 0</Y></PointXY>
+      <PointXY><X>74 0</X><Y>314.446 0</Y></PointXY>
+      <PointXY><X>75 0</X><Y>321.921 0</Y></PointXY>
+      <PointXY><X>76 0</X><Y>329.402 0</Y></PointXY>
+      <PointXY><X>77 0</X><Y>336.981 0</Y></PointXY>
+      <PointXY><X>78 0</X><Y>344.753 0</Y></PointXY>
+      <PointXY><X>79 0</X><Y>352.624 0</Y></PointXY>
+      <PointXY><X>80 0</X><Y>360.501 0</Y></PointXY>
+      <PointXY><X>81 0</X><Y>368.477 0</Y></PointXY>
+      <PointXY><X>82 0</X><Y>376.553 0</Y></PointXY>
+      <PointXY><X>83 0</X><Y>384.728 0</Y></PointXY>
+      <PointXY><X>84 0</X><Y>393.003 0</Y></PointXY>
+      <PointXY><X>85 0</X><Y>401.378 0</Y></PointXY>
+      <PointXY><X>86 0</X><Y>409.853 0</Y></PointXY>
+      <PointXY><X>87 0</X><Y>418.334 0</Y></PointXY>
+      <PointXY><X>88 0</X><Y>426.915 0</Y></PointXY>
+      <PointXY><X>89 0</X><Y>435.691 0</Y></PointXY>
+      <PointXY><X>90 0</X><Y>444.568 0</Y></PointXY>
+      <PointXY><X>91 0</X><Y>453.451 0</Y></PointXY>
+      <PointXY><X>92 0</X><Y>462.434 0</Y></PointXY>
+      <PointXY><X>93 0</X><Y>471.519 0</Y></PointXY>
+      <PointXY><X>94 0</X><Y>480.704 0</Y></PointXY>
+      <PointXY><X>95 0</X><Y>489.99 0</Y></PointXY>
+      <PointXY><X>96 0</X><Y>499.378 0</Y></PointXY>
+      <PointXY><X>97 0</X><Y>508.867 0</Y></PointXY>
+      <PointXY><X>98 0</X><Y>518.457 0</Y></PointXY>
+      <PointXY><X>99 0</X><Y>528.149 0</Y></PointXY>
+      <PointXY><X>100 0</X><Y>537.848 0</Y></PointXY>
+      <PointXY><X>101 0</X><Y>547.648 0</Y></PointXY>
+      <PointXY><X>102 0</X><Y>557.645 0</Y></PointXY>
+      <PointXY><X>103 0</X><Y>567.744 0</Y></PointXY>
+      <PointXY><X>104 0</X><Y>577.85 0</Y></PointXY>
+      <PointXY><X>105 0</X><Y>588.058 0</Y></PointXY>
+      <PointXY><X>106 0</X><Y>598.367 0</Y></PointXY>
+      <PointXY><X>107 0</X><Y>608.779 0</Y></PointXY>
+      <PointXY><X>108 0</X><Y>619.294 0</Y></PointXY>
+      <PointXY><X>109 0</X><Y>629.91 0</Y></PointXY>
+      <PointXY><X>110 0</X><Y>640.629 0</Y></PointXY>
+      <PointXY><X>111 0</X><Y>651.354 0</Y></PointXY>
+      <PointXY><X>112 0</X><Y>662.182 0</Y></PointXY>
+      <PointXY><X>113 0</X><Y>673.208 0</Y></PointXY>
+      <PointXY><X>114 0</X><Y>684.337 0</Y></PointXY>
+      <PointXY><X>115 0</X><Y>695.473 0</Y></PointXY>
+      <PointXY><X>116 0</X><Y>706.71 0</Y></PointXY>
+      <PointXY><X>117 0</X><Y>718.051 0</Y></PointXY>
+      <PointXY><X>118 0</X><Y>729.494 0</Y></PointXY>
+      <PointXY><X>119 0</X><Y>741.04 0</Y></PointXY>
+      <PointXY><X>120 0</X><Y>752.688 0</Y></PointXY>
+      <PointXY><X>121 0</X><Y>764.439 0</Y></PointXY>
+      <PointXY><X>122 0</X><Y>776.293 0</Y></PointXY>
+      <PointXY><X>123 0</X><Y>788.249 0</Y></PointXY>
+      <PointXY><X>124 0</X><Y>800.212 0</Y></PointXY>
+      <PointXY><X>125 0</X><Y>812.277 0</Y></PointXY>
+      <PointXY><X>126 0</X><Y>824.541 0</Y></PointXY>
+      <PointXY><X>127 0</X><Y>836.811 0</Y></PointXY>
+      <PointXY><X>128 0</X><Y>849.183 0</Y></PointXY>
+      <PointXY><X>129 0</X><Y>861.755 0</Y></PointXY>
+      <PointXY><X>130 0</X><Y>874.332 0</Y></PointXY>
+      <PointXY><X>131 0</X><Y>887.012 0</Y></PointXY>
+      <PointXY><X>132 0</X><Y>899.793 0</Y></PointXY>
+      <PointXY><X>133 0</X><Y>912.581 0</Y></PointXY>
+      <PointXY><X>134 0</X><Y>925.47 0</Y></PointXY>
+      <PointXY><X>135 0</X><Y>938.557 0</Y></PointXY>
+      <PointXY><X>136 0</X><Y>951.747 0</Y></PointXY>
+      <PointXY><X>137 0</X><Y>964.942 0</Y></PointXY>
+      <PointXY><X>138 0</X><Y>978.238 0</Y></PointXY>
+      <PointXY><X>139 0</X><Y>991.733 0</Y></PointXY>
+      <PointXY><X>140 0</X><Y>1005.33 0</Y></PointXY>
+      <PointXY><X>141 0</X><Y>1018.93 0</Y></PointXY>
+      <PointXY><X>142 0</X><Y>1032.63 0</Y></PointXY>
+      <PointXY><X>143 0</X><Y>1046.43 0</Y></PointXY>
+      <PointXY><X>144 0</X><Y>1060.34 0</Y></PointXY>
+      <PointXY><X>145 0</X><Y>1074.34 0</Y></PointXY>
+      <PointXY><X>146 0</X><Y>1088.35 0</Y></PointXY>
+      <PointXY><X>147 0</X><Y>1102.45 0</Y></PointXY>
+      <PointXY><X>148 0</X><Y>1116.76 0</Y></PointXY>
+      <PointXY><X>149 0</X><Y>1131.16 0</Y></PointXY>
+      <PointXY><X>150 0</X><Y>1145.57 0</Y></PointXY>
+      <PointXY><X>151 0</X><Y>1160.07 0</Y></PointXY>
+      <PointXY><X>152 0</X><Y>1174.68 0</Y></PointXY>
+      <PointXY><X>153 0</X><Y>1189.38 0</Y></PointXY>
+      <PointXY><X>154 0</X><Y>1204.19 0</Y></PointXY>
+      <PointXY><X>155 0</X><Y>1219.09 0</Y></PointXY>
+      <PointXY><X>156 0</X><Y>1234.08 0</Y></PointXY>
+      <PointXY><X>157 0</X><Y>1249.18 0</Y></PointXY>
+      <PointXY><X>158 0</X><Y>1264.37 0</Y></PointXY>
+      <PointXY><X>159 0</X><Y>1279.57 0</Y></PointXY>
+      <PointXY><X>160 0</X><Y>1294.86 0</Y></PointXY>
+      <PointXY><X>161 0</X><Y>1310.34 0</Y></PointXY>
+      <PointXY><X>162 0</X><Y>1325.92 0</Y></PointXY>
+      <PointXY><X>163 0</X><Y>1341.5 0</Y></PointXY>
+      <PointXY><X>164 0</X><Y>1357.17 0</Y></PointXY>
+      <PointXY><X>165 0</X><Y>1372.94 0</Y></PointXY>
+      <PointXY><X>166 0</X><Y>1388.8 0</Y></PointXY>
+      <PointXY><X>167 0</X><Y>1404.76 0</Y></PointXY>
+      <PointXY><X>168 0</X><Y>1420.81 0</Y></PointXY>
+      <PointXY><X>169 0</X><Y>1436.95 0</Y></PointXY>
+      <PointXY><X>170 0</X><Y>1453.09 0</Y></PointXY>
+      <PointXY><X>171 0</X><Y>1469.32 0</Y></PointXY>
+      <PointXY><X>172 0</X><Y>1485.74 0</Y></PointXY>
+      <PointXY><X>173 0</X><Y>1502.25 0</Y></PointXY>
+      <PointXY><X>174 0</X><Y>1518.76 0</Y></PointXY>
+      <PointXY><X>175 0</X><Y>1535.35 0</Y></PointXY>
+      <PointXY><X>176 0</X><Y>1552.04 0</Y></PointXY>
+      <PointXY><X>177 0</X><Y>1568.81 0</Y></PointXY>
+      <PointXY><X>178 0</X><Y>1585.68 0</Y></PointXY>
+      <PointXY><X>179 0</X><Y>1602.63 0</Y></PointXY>
+      <PointXY><X>180 0</X><Y>1619.67 0</Y></PointXY>
+      <PointXY><X>181 0</X><Y>1636.79 0</Y></PointXY>
+      <PointXY><X>182 0</X><Y>1654 0</Y></PointXY>
+      <PointXY><X>183 0</X><Y>1671.2 0</Y></PointXY>
+      <PointXY><X>184 0</X><Y>1688.49 0</Y></PointXY>
+      <PointXY><X>185 0</X><Y>1705.95 0</Y></PointXY>
+      <PointXY><X>186 0</X><Y>1723.5 0</Y></PointXY>
+      <PointXY><X>187 0</X><Y>1741.04 0</Y></PointXY>
+      <PointXY><X>188 0</X><Y>1758.66 0</Y></PointXY>
+      <PointXY><X>189 0</X><Y>1776.35 0</Y></PointXY>
+      <PointXY><X>190 0</X><Y>1794.13 0</Y></PointXY>
+      <PointXY><X>191 0</X><Y>1811.99 0</Y></PointXY>
+      <PointXY><X>192 0</X><Y>1829.93 0</Y></PointXY>
+      <PointXY><X>193 0</X><Y>1847.95 0</Y></PointXY>
+      <PointXY><X>194 0</X><Y>1865.94 0</Y></PointXY>
+      <PointXY><X>195 0</X><Y>1884.02 0</Y></PointXY>
+      <PointXY><X>196 0</X><Y>1902.26 0</Y></PointXY>
+      <PointXY><X>197 0</X><Y>1920.58 0</Y></PointXY>
+      <PointXY><X>198 0</X><Y>1938.88 0</Y></PointXY>
+      <PointXY><X>199 0</X><Y>1957.25 0</Y></PointXY>
+      <PointXY><X>200 0</X><Y>1975.7 0</Y></PointXY>
+      <PointXY><X>201 0</X><Y>1994.21 0</Y></PointXY>
+      <PointXY><X>202 0</X><Y>2012.8 0</Y></PointXY>
+      <PointXY><X>203 0</X><Y>2031.45 0</Y></PointXY>
+      <PointXY><X>204 0</X><Y>2050.17 0</Y></PointXY>
+      <PointXY><X>205 0</X><Y>2068.96 0</Y></PointXY>
+      <PointXY><X>206 0</X><Y>2087.81 0</Y></PointXY>
+      <PointXY><X>207 0</X><Y>2106.64 0</Y></PointXY>
+      <PointXY><X>208 0</X><Y>2125.53 0</Y></PointXY>
+      <PointXY><X>209 0</X><Y>2144.57 0</Y></PointXY>
+      <PointXY><X>210 0</X><Y>2163.58 0</Y></PointXY>
+      <PointXY><X>211 0</X><Y>2182.66 0</Y></PointXY>
+      <PointXY><X>212 0</X><Y>2201.88 0</Y></PointXY>
+      <PointXY><X>213 0</X><Y>2221.07 0</Y></PointXY>
+      <PointXY><X>214 0</X><Y>2240.32 0</Y></PointXY>
+      <PointXY><X>215 0</X><Y>2259.62 0</Y></PointXY>
+      <PointXY><X>216 0</X><Y>2278.88 0</Y></PointXY>
+      <PointXY><X>217 0</X><Y>2298.2 0</Y></PointXY>
+      <PointXY><X>218 0</X><Y>2317.66 0</Y></PointXY>
+      <PointXY><X>219 0</X><Y>2337.17 0</Y></PointXY>
+      <PointXY><X>220 0</X><Y>2356.64 0</Y></PointXY>
+      <PointXY><X>221 0</X><Y>2376.15 0</Y></PointXY>
+      <PointXY><X>222 0</X><Y>2395.81 0</Y></PointXY>
+      <PointXY><X>223 0</X><Y>2415.5 0</Y></PointXY>
+      <PointXY><X>224 0</X><Y>2435.15 0</Y></PointXY>
+      <PointXY><X>225 0</X><Y>2454.84 0</Y></PointXY>
+      <PointXY><X>226 0</X><Y>2474.57 0</Y></PointXY>
+      <PointXY><X>227 0</X><Y>2494.25 0</Y></PointXY>
+      <PointXY><X>228 0</X><Y>2514.06 0</Y></PointXY>
+      <PointXY><X>229 0</X><Y>2533.9 0</Y></PointXY>
+      <PointXY><X>230 0</X><Y>2553.68 0</Y></PointXY>
+      <PointXY><X>231 0</X><Y>2573.59 0</Y></PointXY>
+      <PointXY><X>232 0</X><Y>2593.53 0</Y></PointXY>
+      <PointXY><X>233 0</X><Y>2613.4 0</Y></PointXY>
+      <PointXY><X>234 0</X><Y>2633.31 0</Y></PointXY>
+      <PointXY><X>235 0</X><Y>2653.24 0</Y></PointXY>
+      <PointXY><X>236 0</X><Y>2673.19 0</Y></PointXY>
+      <PointXY><X>237 0</X><Y>2693.17 0</Y></PointXY>
+      <PointXY><X>238 0</X><Y>2713.16 0</Y></PointXY>
+      <PointXY><X>239 0</X><Y>2733.18 0</Y></PointXY>
+      <PointXY><X>240 0</X><Y>2753.21 0</Y></PointXY>
+      <PointXY><X>241 0</X><Y>2773.25 0</Y></PointXY>
+      <PointXY><X>242 0</X><Y>2793.22 0</Y></PointXY>
+      <PointXY><X>243 0</X><Y>2813.2 0</Y></PointXY>
+      <PointXY><X>244 0</X><Y>2833.27 0</Y></PointXY>
+      <PointXY><X>245 0</X><Y>2853.35 0</Y></PointXY>
+      <PointXY><X>246 0</X><Y>2873.35 0</Y></PointXY>
+      <PointXY><X>247 0</X><Y>2893.35 0</Y></PointXY>
+      <PointXY><X>248 0</X><Y>2913.36 0</Y></PointXY>
+      <PointXY><X>249 0</X><Y>2933.36 0</Y></PointXY>
+      <PointXY><X>250 0</X><Y>2953.35 0</Y></PointXY>
+      <PointXY><X>251 0</X><Y>2973.34 0</Y></PointXY>
+      <PointXY><X>252 0</X><Y>2993.32 0</Y></PointXY>
+      <PointXY><X>253 0</X><Y>3013.21 0</Y></PointXY>
+      <PointXY><X>254 0</X><Y>3033.08 0</Y></PointXY>
+      <PointXY><X>255 0</X><Y>3053.02 0</Y></PointXY>
+    </ArrayXY>
+  </Calibration>
+  <Calibration Type="Other" ID="qcc">
+    <Remark>FSE=3072 GrpSz=256</Remark>
+    <CalibrationCreationDate>2018-11-14T13:56:33Z</CalibrationCreationDate>
+    <Equation Model="Polynomial" Form="E = Term0 + Term1*f(Ch) + Term2*f(Ch)^2">
+      <Coefficients>-0.47672 0.96113 6.30453e-05 -1.70419e-08 </Coefficients>
+    </Equation>
+  </Calibration>
+  <Calibration Type="FWHM" ID="res" FWHMUnits="Channels">
+    <Equation Model="Polynomial" Form="FWHM = Term0">
+      <Coefficients>5.2381</Coefficients>
+    </Equation>
+  </Calibration>
+</N42InstrumentData>

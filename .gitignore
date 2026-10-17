@@ -1,0 +1,6 @@
+*.asv
+*.m~
+*.fig
+.DS_Store
+Thumbs.db
+~$*
